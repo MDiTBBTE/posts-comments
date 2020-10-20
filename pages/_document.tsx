@@ -17,6 +17,7 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <title>Post/Comment page</title>
+          {this.props.styleTags}
         </Head>
         <body>
           <Main />
